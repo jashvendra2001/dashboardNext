@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  background-color: var(--bgsec);
+  padding: 20px;
+  border-radius: 12px;
+}
+.title {
+  margin: 1rem 0;
+}
+
+.container td {
+  padding: 10px;
+}
+
+.pending {
+  background-color: #f7cb7375;
+}
+.status {
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  color: white;
+}
+
+.done {
+  background-color: #afd6ee75;
+}

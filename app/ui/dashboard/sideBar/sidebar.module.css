@@ -1,0 +1,31 @@
+.container {
+  color: pink;
+  margin-left: 1rem;
+}
+
+.parents {
+  display: flex;
+  align-items: center;
+}
+
+.layoutMenuList {
+  padding: 1rem;
+  height: 100vh;
+  background-color: var(--bgsec);
+}
+
+.layoutOfDashBoard {
+  display: flex;
+}
+
+.sideMenu {
+  flex: 1;
+}
+
+.navbarDashboard {
+  flex: 4;
+  padding: 1rem;
+}
+
+
+

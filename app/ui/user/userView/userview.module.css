@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.infoContainer {
+  flex: 1;
+  background-color: var(--bgsec);
+  padding: 20px;
+  border-radius: 10px;
+  color: var(--textSec);
+  text-align: center;
+}
+
+.formContainer {
+  flex: 3;
+  background-color: var(--bgsec);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input,
+.form textarea,
+.form select {
+  padding: 20px;
+  border: 2px solid #2e374a;
+  border-radius: 5px;
+  background-color: var(--bgsec);
+  color: var(--text);
+  margin: 10px 0px;
+}
+
+.form button {
+  padding: 20px;
+  width: 100%;
+  background-color: teal;
+  color: var(--text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.userEmail {
+  display: flex;
+  gap: 2px;
+
+  justify-content: space-between;
+}
+
+.username {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

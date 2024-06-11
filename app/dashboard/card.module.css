@@ -1,0 +1,25 @@
+.menuItemsSetting {
+  display: flex;
+  align-items: center;
+  justify-content: unset;
+
+  gap: 0.5rem;
+  margin: 12px 0;
+}
+
+.menuItemsSetting .icons {
+  font-size: 2rem;
+}
+
+.menuItemsSetting .user {
+  font-size: 1rem;
+}
+.layoutMenuItem {
+  text-decoration: none;
+  color: white;
+}
+
+.menuItemsSetting:hover,
+.menuItemsSetting:active {
+  background: #2e374a;
+}

@@ -1,0 +1,39 @@
+.container {
+  padding: 12px;
+  display: flex;
+  background: var(--bgsec);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  padding: 4px;
+  border-radius: 10px;
+  background: #2e374a;
+  overflow: hidden;
+}
+
+.search input {
+  background: #2e374a;
+  border: none;
+  color: white;
+}
+
+.search input:focus {
+  border: none;
+}
